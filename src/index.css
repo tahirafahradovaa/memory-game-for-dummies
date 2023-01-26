@@ -1,8 +1,12 @@
 #root {
   background-color: lightgrey;
   text-align: center;
+  padding: 20px !important;
 }
 
+div {
+  cursor: pointer;
+}
 h1 {
   margin-bottom: 0;
 }
@@ -29,8 +33,9 @@ input[type="button"] {
 
 .tile {
   flex-basis: 40%;
-  border: 1px solid black;
-  width: 20px;
-  height: 20px;
+  border: none;
+  width: 40px;
+  border-radius: 20px;
+  height: 40px;
   background-color: white;
 }
